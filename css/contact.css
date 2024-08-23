@@ -1,0 +1,86 @@
+/* Start Form */
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+body {
+    background-color: #F1F1F1 !important;
+}
+
+.contact-form .alert {
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #4a3535;
+
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.contact-form input {
+    padding-left: 32px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 8px;
+}
+
+.contact-form textarea {
+    height: 150px !important;
+}
+
+/* icon */
+/* selector > any "input" don't have "type sumbit" and his next is tag "i"  */
+.contact-form input:not([type="submit"])+i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999;
+}
+
+.contact-form .asterisx {
+    float: right;
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.contact-form .send-icon {
+    display: block;
+    position: relative;
+    top: -32px;
+    left: 7px;
+    color: #FFF;
+}
+
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    display: none;
+}
